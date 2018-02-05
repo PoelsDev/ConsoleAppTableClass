@@ -8,8 +8,8 @@ namespace ConsoleAppTableClass
     
     class Table
     {
-        private int height = 20;
-        private int width = 40;
+        private int height;
+        private int width;
         public Table(int width, int height)
         {
             this.height = height;
